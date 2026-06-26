@@ -141,7 +141,7 @@ while True:
         print("Bot: Hello! 😊")
 
     elif user == "how are you":
-        print("Bot: I'm doing great! 😎")
+        print("Bot: I'm doing great! wau😎")
 
     elif user == "good morning":
         print("Bot: Good morning! Have a productive day! 🌞")
@@ -158,58 +158,72 @@ while True:
     elif user == "motivate me":
         print("Bot: Your future self will thank you for studying today! 🔥")
 
-    elif user == "focus":
+    elif user == "help me study":
+        print("sure , what are we working on today ?")
+
+    elif user == "make a schedule for today to study":
+        print("okay here it is : "
+             
+              " Morning session; study from 8 till 10 then break for 15 min "
+             
+             
+              " Afternoon session; study after lunch from 4 till 6:30 then rest "
+             
+             
+             " Evening session; study from 9 to 10:30 and then sleep ")
+
+    elif user == "how to focus":
         print("Bot: Focus on one task at a time. 🎯")
 
-    elif user == "revision":
+    elif user == "help me in revision":
         print("Bot: Revise important topics before starting new ones. 📚")
 
-    elif user == "exam tips":
+    elif user == "give exam tips":
         print("Bot: Practice past papers and manage your time well. 📝")
 
-    elif user == "memory tips":
+    elif user == "give memory tips":
         print("Bot: Use flashcards and active recall. 🧠")
 
     elif user in subjects:
         print("Bot:", subjects[user])
 
-    elif user == "joke":
+    elif user == "crack a joke":
         print("Bot:", random.choice(jokes))
 
-    elif user == "fact":
+    elif user == "tell me a fact":
         print("Bot:", random.choice(facts))
 
-    elif user == "quote":
+    elif user == ("tell a quote"):
         print("Bot:", random.choice(quotes))
 
-    elif user == "riddle":
+    elif user == "ask a riddle":
         print("Bot: What has keys but can't open locks? A piano! 🎹")
 
     elif user == "compliment me":
         print("Bot: You're capable of achieving amazing things! 🌟")
 
-    elif user == "time":
+    elif user == "whats the time":
         print("Bot:", datetime.now().strftime("%H:%M:%S"))
 
-    elif user == "date":
+    elif user == "what's the date":
         print("Bot:", datetime.now().strftime("%d/%m/%Y"))
 
-    elif user == "day":
+    elif user == "whats the day":
         print("Bot:", datetime.now().strftime("%A"))
 
-    elif user == "year":
+    elif user == "whats the year":
         print("Bot:", datetime.now().strftime("%Y"))
 
-    elif user == "coin flip":
+    elif user == "lets play coin flip":
         print("Bot:", random.choice(["Heads", "Tails"]))
 
-    elif user == "dice":
+    elif user == "throw the dice and give me an answer":
         print("Bot: 🎲", random.randint(1, 6))
 
-    elif user == "random number":
+    elif user == "tell random number":
         print("Bot:", random.randint(1, 100))
 
-    elif user == "calculator":
+    elif user == "calculator mode":
         try:
             num1 = float(input("First number: "))
             op = input("Operator (+ - * /): ")
@@ -228,13 +242,13 @@ while True:
         except:
             print("Invalid input.")
 
-    elif user == "i am sad":
+    elif user == "I am sad":
         print("Bot: Better days are coming. ❤️")
 
-    elif user == "i am happy":
+    elif user == "I am happy":
         print("Bot: That's wonderful! 😄")
 
-    elif user == "i am tired":
+    elif user == "I am tired":
         print("Bot: Take a short break and recharge. ☕")
 
     elif user == "encourage me":
