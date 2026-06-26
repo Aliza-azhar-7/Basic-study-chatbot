@@ -14,7 +14,7 @@ The bot provides study tips, subject-specific guidance, fun commands, quizzes, m
 - Exam preparation tips
 - Memory improvement tips
 - Focus guidance
-- Motivation messages
+- Motivation messages.
 
 ### 🎓 Subject Support
 - Python
